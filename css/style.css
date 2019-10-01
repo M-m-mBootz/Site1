@@ -1,0 +1,72 @@
+html, body, h1, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header .wrapper h1 {
+    font-size: 70px;
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00363a;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    height: inherit;
+    color: #ffffff;
+    font-family: Helvetica;
+    
+}
+
+.header {
+    background: #006064;
+    height: 150px;
+}
+
+.menu {
+    background: #428e92;
+    height: 55px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.menu li a{
+    color: inherit;
+    text-decoration: none;
+    line-height: 55px;
+}
+
+.menu li a:hover {
+    color: #00363a;
+}
+
+.content {
+    background: #cfcfcf;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.content img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.content p {
+    color: black;
+    overflow: hidden;
+}
+.footer {
+    background: #006064;
+    height: 55px;
+}
